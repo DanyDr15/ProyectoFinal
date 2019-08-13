@@ -22,14 +22,14 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           {
             user
-              ? <p>Hello, {user.displayName}</p>
-              : <p>Please sign in.</p>
+              ? <p>HOLA, {user.displayName}</p>
+              : <p>Por favor registrese.</p>
           }
 
           {
             user
-              ? <button onClick={signOut}>Sign out</button>
-              : <button onClick={signInWithGoogle}>Sign in with Google</button>
+              ? <button onClick={signOut}>Cerrar sesion</button>
+              : <button onClick={signInWithGoogle}>Ingresar con Google</button>
           }
         </header>
       </div>
