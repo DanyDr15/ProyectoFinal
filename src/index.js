@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+//import { BrowserRouter , Route} from 'react-router-dom';
+//import  Ar from './components/ar';
+
+/*const App = () => (
+    <BrowserRouter>
+        <Route path="/ar" component={Ar} />
+    </BrowserRouter>
+);*/
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

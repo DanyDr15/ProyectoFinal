@@ -6,6 +6,7 @@ import firebaseConfig from './firebaseConfig';
 import logo from './logo.svg';
 import './App.css';
 
+
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 class App extends Component {
@@ -22,8 +23,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           {
             user
-              ? <p>HOLA, {user.displayName}</p>
+              ? <p>HOLA, {user.displayName} </p> 
               : <p>Por favor registrese.</p>
+
+              
           }
 
           {
@@ -32,6 +35,7 @@ class App extends Component {
               : <button onClick={signInWithGoogle}>Ingresar con Google</button>
           }
         </header>
+        <ar></ar> 
       </div>
     );
   }
